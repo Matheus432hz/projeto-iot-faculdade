@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor ESP32</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="current-status">
+            <div class="status-card">
+                <h3>Temperatura</h3>
+                <p id="current-temp">--°C</p>
+            </div>
+            <div class="status-card">
+                <h3>Umidade</h3>
+                <p id="current-humidity">--%</p>
+            </div>
+            <div class="status-card">
+                <h3>Status Relé</h3>
+                <p id="relay-status">--</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
